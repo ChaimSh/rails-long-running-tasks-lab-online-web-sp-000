@@ -1,5 +1,5 @@
 class SongsController < ApplicationController
-  # require 'cvs'
+  require 'cvs'
   def index
     @songs = Song.all
   end
