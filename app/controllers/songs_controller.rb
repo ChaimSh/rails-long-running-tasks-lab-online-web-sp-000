@@ -1,5 +1,5 @@
 class SongsController < ApplicationController
-  require 'songs.cvs'
+  require './songs.cvs'
 
   def index
     @songs = Song.all
